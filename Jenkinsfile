@@ -5,7 +5,8 @@ pipeline {
         REGISTRY = "avanthikha" // Use the same DockerHub username
         IMAGE_NAME = "webapp"
         TAG = "latest"
-        WORKDIR = "/root/kec" // Change the folder path based on where your Dockerfile and docker-compose.yml reside
+        // WORKDIR = "/root/kec" // Change the folder path based on where your Dockerfile and docker-compose.yml reside
+        WORKDIR = "/var/lib/jenkins/workspace/tasj2"
     }
 
     stages {
